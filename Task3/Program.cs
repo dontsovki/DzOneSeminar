@@ -8,8 +8,13 @@ int Secondtnumber = Convert.ToInt32(Console.ReadLine());
 Console.Write("введите третье число ");
 int Freenumber = Convert.ToInt32(Console.ReadLine());
 
-if (ferstnumber > Secondtnumber)
-    else if(ferstnumber > Freenumber)
-    Console.Write($"Число больше {ferstnumber}");
+int max = ferstnumber;
+
+
+if ((max > Freenumber) & (max > Secondtnumber))
+    Console.Write($"Число один наиболшее, равно {max}");
+else if(Freenumber < Secondtnumber)
+    Console.Write($"Число два наиболшее, равно {Secondtnumber}");
 else
-    Console.Write($"Число больше {Freenumber}");
+    Console.Write($"Число три наиболшее, равно {Freenumber}");
+
