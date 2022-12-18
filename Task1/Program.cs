@@ -1,4 +1,5 @@
-﻿Console.Write("введите первое число ");
+﻿//Определение является ли иследуемое число квадратом исходного
+Console.Write("введите первое число ");
 int ferstnumber = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("введите второе число ");
